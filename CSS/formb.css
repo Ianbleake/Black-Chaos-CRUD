@@ -1,0 +1,93 @@
+form
+{
+    display: block;
+    box-sizing: border-box;
+    height: 25%;
+    width: 50%;
+    background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+    background-color:#768d87;
+    background-color: #768d87;
+    opacity: 1;
+    background-image:  radial-gradient(#444cf7 1.4000000000000001px, transparent 1.4000000000000001px), radial-gradient(#444cf7 1.4000000000000001px, #768d87 1.4000000000000001px);
+    background-size: 56px 56px;
+    background-position: 0 0,28px 28px;
+    border: 5px outset #6732fa;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.ord
+{
+    display: block;
+    box-sizing: border-box;
+    height: 50%;
+    width: 100%;
+    float: left;
+    padding-top: 10%;
+}
+
+.ord:last-child
+{
+    padding: 5%;
+}
+
+label
+{
+    display: block;
+    box-sizing: border-box;
+    height: 100%;
+    width: 38%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: end;
+    float: left;
+    padding-right: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.css-input {
+    padding: 5px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(176,17,222,.75);
+    text-shadow: 0px 0px 5px rgba(255,255,255,.75);
+}
+.css-input:focus {
+    outline:none;
+}
+
+.myButtonf {
+    height: 90%;
+    width: 30%;
+    margin-left: 35%;
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #4d1978 100%);
+	background-color:#dfbdfa;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+}
+.myButtonf:hover {
+	background:linear-gradient(to bottom, #4d1978 5%, #dfbdfa 100%);
+	background-color:#4d1978;
+}
+.myButtonf:active {
+	position:relative;
+	top:1px;
+}
+

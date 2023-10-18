@@ -1,0 +1,96 @@
+main
+{
+    overflow: hidden;
+}
+.carrusel
+{
+    display: block;
+    box-sizing: border-box;
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid white;
+    float: left;
+    overflow: hidden;
+}
+
+
+#imgen
+{
+    display: block;
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: aliceblue;
+}
+
+#title
+{
+    display: block;
+    box-sizing: border-box;
+    height: 20%;
+    width: 50%;
+    float: left;
+    background-color: #1bb513;
+}
+
+#des
+{
+    display: block;
+    box-sizing: border-box;
+    height: 70%;
+    width: 50%;
+    float: left;
+    background-color: #195219;
+}
+
+
+.prodbut
+{
+    display: block;
+    box-sizing: border-box;
+    height: 10%;
+    width: 50%;
+    float: left;
+    padding-top: 1%;
+    padding-left: 20%;
+    background-color: aquamarine
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.btn{
+
+font-family: Roboto, sans-serif;
+font-weight: 600;
+font-size: 16px;
+color: #fff;
+background: linear-gradient(90deg, #195219 0%, #1bb513 100%);
+padding: 10px 30px;
+border: solid #2a9d8faa 2px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.btn:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background: linear-gradient(90deg, #195219 0%, #1bb513 100%);
+color: #f8f6fa;
+border: solid 2px rgba(105,60,199,0.48);
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}

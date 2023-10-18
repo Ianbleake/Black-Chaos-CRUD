@@ -1,0 +1,52 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/formb.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="APIs/res_bus_user.php" method="post" class="regform" id="busca_usuario">
+
+        <div class="ord">
+            <label for="Username">Username:</label>
+            <input type="text" name="Username" class="css-input" >
+        </div>
+
+        <div class="ord">
+            <button type="submit" class="myButtonf">Buscar</button>
+        </div>
+
+    </form>
+
+    <form action="APIs/res_bus_trab.php" method="post" class="regform" id="busca_trabajador">
+
+        <div class="ord">
+            <label for="ID">ID del trabajador:</label>
+            <input type="text" name="ID" class="css-input" >
+        </div>
+
+        <div class="ord">
+            <button type="submit" class="myButtonf">Buscar</button>
+        </div>
+
+    </form>
+
+    <form action="APIs/res_bus_prod.php" method="post" class="regform" id="busca_product">
+
+        <div class="ord">
+            <label for="SKU">SKU:</label>
+            <input type="text" name="SKU" class="css-input">
+        </div>
+
+        <div class="ord">
+            <button type="submit" class="myButtonf">Buscar</button>
+        </div>
+
+    </form>
+</body>
+
+</html>

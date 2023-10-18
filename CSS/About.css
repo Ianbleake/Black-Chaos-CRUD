@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+@keyframes Entrada {
+    0% {
+        transform: translateX(-500px);
+      }
+      100% {
+        transform: translateX(0px);
+      }
+}
+
+main > #About > #info
+{
+    display: block;
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    float: left;
+    color: aliceblue;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+main > #About > #info > h1
+{
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+main > #About > #info > h2
+{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+main > #About > #info > h1 >span
+{
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 10px;
+}
+
+main > #About > #info > p
+{
+    font-family: 'Lexend Peta', sans-serif; 
+    text-align: justify;
+}
+
+main > #About > #face
+{
+    display: block;
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+main > #About > #face > img
+{
+    height: 80%;
+    width: 80%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+main > #About
+{
+    animation-name: Entrada;
+    animation-duration: 500ms;
+}

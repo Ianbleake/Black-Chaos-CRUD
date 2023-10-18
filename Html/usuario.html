@@ -1,0 +1,106 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackChaos MX</title>
+    <link rel="stylesheet" href="../CSS/base.css">
+    <link rel="stylesheet" href="../CSS/Usuario.css">
+    <link rel="shortcut icon" href="../Media/owl.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <div id="Logo">
+                <h1>BlackChaos</h1>
+                <img src="../Media/owl.png" alt="Logo">
+            </div>
+        </a>
+
+    </header>
+
+    <main>
+
+        <section id="Sesion">
+            <article id="practica1">
+                <form id="login" autocomplete="off" action="../PHP/APIs/Recibe_login.php" method="post">
+                    <img src="../Media/user.png" alt="Logo">
+                    <br><br>
+                    
+                    <input type="text"  name="usuario" placeholder="Usuario">
+                    <br>
+    
+                    <input type="text"  name="pass" required placeholder="Contraseña">
+                    <br>
+                    
+                    <button type="submit" class="myButton">Ingresar</button>
+                    <a href="Html/usuario.html" class="myButton2">Registrar</a>
+                </form>
+            </article>
+
+        </section>
+
+        <section id="register">
+            <div id="RegUser">
+                <form action="../PHP\APIs\Recibe_user.php" method="post">
+
+                    <div class="org">
+                        <h1>Registro de Usuario</h1>
+                    </div>
+
+                    <div class="org">
+                        <input type="text" name="name" id="name" class="in" placeholder="Primer nombre" required>
+                    </div>
+
+                    <div class="org">
+                        <input type="text" name="name2" id="name2" class="in" placeholder="Segundo Nombre">
+                    </div>
+
+                    <div class="org">
+                        <input type="text" name="lastname" id="lastname" class="in" placeholder="Apellido paterno" required>
+                    </div>
+
+                    <div class="org">
+                        <input type="text" name="lastname2" id="lastname2" class="in" placeholder="Apellido Materno" required>
+                    </div>
+
+                    <div class="org">
+                        <input type="email" name="mail" id="mail" class="in" placeholder="Correo electronico" required>
+                    </div>
+
+                    <div class="org">                
+                        <input type="text" name="user" id="user" class="in" placeholder=" Nombre de Usuario" required>
+                    </div>
+
+                    <div class="org">
+                        <input type="password" name="pass" id="pass" class="in" placeholder="Contraseña" required>
+                    </div>
+
+                    <div class="org">
+                        <input type="password" name="confirm" id="confirm" class="in" placeholder="Confrima Contraseña" required>
+                    </div>
+
+                    <div class="org">
+                        <button type="submit" class="myButton">Registrar</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+    <script src="../Js/LoginOn.js"></script>
+</body>
+
+</html>

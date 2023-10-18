@@ -1,0 +1,56 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackChaos MX</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="shortcut icon" href="Media/owl.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+        <div id="Logo">
+            <h1>BlackChaos</h1>
+            <img src="Media/owl.png" alt="Logo">
+        </div>
+        </a>
+
+    </header>
+
+    <main>
+
+        <section id="Sesion">
+            <article id="practica1">
+                <form id="login" autocomplete="off" action="PHP/APIs/Recibe_login.php" method="post">
+
+                    <div id="mensaje-error" style="display: none;">Error: Usuario o contraseña incorrectos.</div>
+
+                    <img src="Media/user.png" alt="Logo">
+                    <br><br>
+                    
+                    <input type="text"  name="usuario" placeholder="Usuario">
+                    <br>
+    
+                    <input type="password"  name="pass" required placeholder="Contraseña">
+                    <br>
+                    
+                    <button type="submit" class="myButton">Ingresar</button>
+                    <a href="Html/usuario.html" class="myButton2">Registrar</a>
+                </form>
+            </article>
+
+        </section>
+
+    </main>
+    <script src="Js/LoginOn.js"></script>
+    <script src="Js/Error.js"></script>
+</body>
+
+</html>

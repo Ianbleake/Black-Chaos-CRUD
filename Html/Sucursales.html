@@ -1,0 +1,140 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackChaos MX</title>
+    <link rel="stylesheet" href="../CSS/base.css">
+    <link rel="stylesheet" href="../CSS/Sucursalers.css">
+    <link rel="shortcut icon" href="../Media/owl.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <div id="Logo">
+                <h1>BlackChaos</h1>
+                <img src="../Media/owl.png" alt="Logo">
+            </div>
+        </a>
+
+        <nav>
+            
+            <ul>
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="carrito.html"><img src="../Media/shopping-cart.png" alt="Carrito" class="icon"></a></li>
+                <li>
+                    <div onclick="OnLog" id="Press"><img src="../Media/user1.png" alt="Login" class="icon"></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="Sesion">
+            <article id="practica1">
+                <form id="login" autocomplete="off" action="../PHP/APIs/Recibe_login.php" method="post">
+                    <img src="../Media/user.png" alt="Logo">
+                    <br><br>
+                    
+                    <input type="text"  name="usuario" placeholder="Usuario">
+                    <br>
+    
+                    <input type="text"  name="pass" required placeholder="Contraseña">
+                    <br>
+                    
+                    <button type="submit" class="myButton">Ingresar</button>
+                    <a href="Html/usuario.html" class="myButton2">Registrar</a>
+                </form>
+            </article>
+
+        </section>
+
+        <section id="Sucursales">
+            <div id="Aragon" class="left">
+                <div class="locate">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.3144961196563!2d-99.07796272459441!3d19.48510063900183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fa4b1613838b%3A0x556f82f8fff7a87a!2sCam.%20de%20la%20Uni%C3%B3n%20%22A%22%20113%2C%20Campestre%20Arag%C3%B3n%2C%20Gustavo%20A.%20Madero%2C%2007550%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1687287726871!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+
+            <div id="AragonFace" class="right">
+                <h1>Aragon</h1>
+
+                <div class="trans" id="ubiA">
+                    <img src="../Media/map.png" alt="Ubi"><h3 class="Ubi">Camino Unión A 113 Campestre Aragón GAM CDMX</h3>
+                </div>
+                <br>
+                <div class="trans">
+                    <img src="../Media/bus-stop.png" alt="MB"><h2>L6 Providencia</h2>
+                </div>
+
+
+
+            </div>
+
+            <div id="Buenavista" class="left">
+                <div class="locate">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.034018942526!2d-99.15779942459505!3d19.454100039993584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8dd1596f483%3A0x5f3966f952a45cf4!2sDr.Atl!5e0!3m2!1ses-419!2smx!4v1687287763289!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+                </div>
+
+            </div>
+
+            <div id="BuenavistaFace" class="right">
+                <h1>Buenavista</h1>
+
+                <div class="trans">
+                    <img src="../Media/map.png" alt="Ubi"><h3 class="Ubi">Dr.Atl 238 Santa María de la rivera, Cuauhtémoc CDMX</h3>
+                </div>
+                <br>
+                <div class="trans">
+                    <img src="../Media/bus-stop.png" alt="MB"><h2>MB L1 Buenavista</h2>
+                </div>
+                <br>
+                <div class="trans">
+                    <img src="../Media/train.png" alt="Metro"><h2>Metro L2 San Cosme / LB Buenavista</h2>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="nav2" class="foot">
+            <ul>
+                <li><a href="Sucursales.html">Sucursales</a></li>
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+
+        </div>
+
+        <div id="dev" class="foot">
+            <img src="../Media/owl.png" alt="logo footer">
+            <h1>BlackChaos</h1>
+            <p>Desarrollado por Ivan Rangel</p>
+        </div>
+
+        <div id="locate" class="foot">
+            <h2>¿Donde estamos?</h2>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d120352.7625641549!2d-99.20568655023999!3d19.497610530777212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDI5JzA2LjgiTiA5OcKwMDQnMzIuOCJX!5e0!3m2!1ses-419!2smx!4v1687131270473!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="../Js/LoginOn.js"></script>
+</body>
+
+</html>

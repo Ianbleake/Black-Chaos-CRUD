@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@200&family=Stalinist+One&display=swap');
+
+@keyframes Entrada {
+    0% {
+        transform: translateX(-500px);
+      }
+      100% {
+        transform: translateX(0px);
+      }
+}
+
+.left
+{
+    display: block;
+    box-sizing: border-box;
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+
+.locate
+{
+    display: block;
+    box-sizing: border-box;
+    border: 5px groove #ab41f8;
+    height: 80%;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.locate > iframe
+{
+    height: 100%;
+    width: 100%;
+}
+
+.right
+{
+    display: block;
+    box-sizing: border-box;
+    height: 50%;
+    width: 50%; 
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    float: right;
+}
+
+.right > h1
+{
+    font-family: 'Stalinist One', cursive;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#ubiA
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.trans
+{
+    display: block;
+    box-sizing: border-box;
+    height: 25%;
+    width: 100%;
+}
+
+
+
+.trans > img
+{
+    display: block;
+    box-sizing: border-box;
+    float: left;
+    height: 80%;
+    width: 20%;
+}
+
+.trans > h3
+{ 
+    display: block;
+    box-sizing: border-box;
+    float: right;
+    height: 100%;
+    width: 70%;
+    margin-right: 5%;
+    text-align: justify;
+    padding-top: 30px;
+    /*line-height: 60px;*/
+}
+.trans > h2
+{
+    display: block;
+    box-sizing: border-box;
+    float: right;
+    height: 100%;
+    width: 70%;
+    margin-right: 5%;
+    text-align: start;
+    line-height: 30px;
+    
+}
+
+main > #Sucursales
+{
+    animation-name: Entrada;
+    animation-duration: 500ms;
+}
